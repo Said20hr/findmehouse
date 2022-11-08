@@ -18,6 +18,8 @@ Route::get('/services', [App\Http\Controllers\LandingPageController::class,'serv
 Route::get('/api', [App\Http\Controllers\LandingPageController::class,'create']);
 Route::get('/contact', [App\Http\Controllers\ContactPageController::class,'index'])->name('contact');
 Route::get('/faq', [App\Http\Controllers\ContactPageController::class,'faq'])->name('faq');
+Route::get('/search-application', [App\Http\Controllers\ContactPageController::class,'form'])->name('form');
+
 
 
 Route::middleware([

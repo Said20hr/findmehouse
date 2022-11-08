@@ -5,7 +5,7 @@
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
-
+        <h1 class="text-4xl mb-4 text-center font-bold mt-4">Welcome </h1>
         <form method="POST" action="{{ route('register') }}">
             @csrf
 

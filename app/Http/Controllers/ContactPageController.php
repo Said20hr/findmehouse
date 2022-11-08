@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
 class ContactPageController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -44,6 +46,11 @@ class ContactPageController extends Controller
         //
     }
 
+
+    public function form()
+    {
+        return view('pages.form');
+    }
     /**
      * Display the specified resource.
      *

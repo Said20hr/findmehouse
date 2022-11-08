@@ -23,17 +23,22 @@
         <link rel="stylesheet" href="{{asset('assets/')}}/css/responsive.css">
         <link rel="stylesheet" href="{{asset('assets/')}}/css/color.css">
         <!-- Scripts -->
+        <!-- Alpine Plugins -->
+        <script defer src="https://unpkg.com/@alpinejs/mask@3.x.x/dist/cdn.min.js"></script>
+
+        <!-- Alpine Core -->
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <!-- Styles -->
         @livewireStyles
     </head>
     <body>
     <x-jet-banner />
-    <div id="dtr-wrapper" class="clearfix">
+    <div id="dtr-wrapper" class="clearfix dtr-section dtr-bg-shapes-type-2">
         <x-guest.includes.preloader/>
         <x-guest.includes.header/>
 
-        <div class="xl:px-12 lg:px-12">
+        <div class="">
             {{ $slot }}
         </div>
 

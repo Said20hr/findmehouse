@@ -1,14 +1,14 @@
 <footer id="dtr-footer">
 
     <!--== footer main starts ==-->
-    <div class="dtr-footer-main dtr-box-layout">
+    <div class="dtr-footer-main px-8 shadow-sm">
 
         <!--== row starts ==-->
         <div class="flex xl:justify-content-between justify-content-start">
 
             <!-- column 1 starts -->
             <div class="xl:w1/2 lg:w1/2 w-full">
-                <img src="assets/images/logo.png" class="w-32" alt="logo">
+                <img src="{{asset('assets/images/logo.png')}}" class="w-28" alt="logo">
             </div>
             <!-- column 1 ends -->
 

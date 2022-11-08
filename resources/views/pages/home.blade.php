@@ -5,7 +5,7 @@
 ================================================== -->
         <section id="home" class="dtr-section dtr-box-layout dtr-hero-section-top-padding">
             <!-- dtr-bg-shapes-type-1 : Class for shapes to background. Easy to change image color, refer local help doc -->
-            <div class="dtr-box-wrapper-flat dtr-bg-shapes-type-1 bg-white">
+            <div class="dtr-box-wrapper-flat  bg-white">
 
                 <!--===== row 1 starts =====-->
                 <div class="row">
@@ -51,7 +51,7 @@
 
         <!-- features section starts
 ================================================== -->
-        <section id="features" class="dtr-section dtr-box-layout dtr-py-100">
+        <section id="features" class="dtr-section dtr-box-layout dtr-py-100 xl:px-12 lg:px-12">
 
             <!-- heading starts -->
             <div class="dtr-section-heading-wrapper">

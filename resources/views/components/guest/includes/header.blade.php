@@ -24,10 +24,10 @@
         <div class="dtr-header-left">
 
             <!-- logo -->
-            <a class="logo-default dtr-scroll-link" href="#home"><img src="assets/images/logo.png" class="w-36" alt="logo"></a>
+            <a class="logo-default dtr-scroll-link" href="#home"><img src="assets/images/logo.png" class="w-28" alt="logo"></a>
 
             <!-- logo on scroll -->
-            <a class="logo-alt dtr-scroll-link" href="#home"><img src="assets/images/logo.png" class="w-36" alt="logo"></a>
+            <a class="logo-alt dtr-scroll-link" href="#home"><img src="assets/images/logo.png" class="w-28" alt="logo"></a>
             <!-- logo on scroll ends -->
 
         </div>

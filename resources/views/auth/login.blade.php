@@ -12,6 +12,8 @@
             </div>
         @endif
 
+        <h1 class="text-4xl mb-4 text-center font-bold">Welcome Back</h1>
+
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
