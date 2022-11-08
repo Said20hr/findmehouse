@@ -3,8 +3,8 @@
     <div id="dtr-main-content" class="dtr-hero-section-top-padding">
 
         <!--===== section 1 starts =====-->
-        <section class="dtr-py-100 bg-white">
-            <div class="container">
+        <section class="dtr-py-100 dtr-sm-py-20">
+            <div class="container xl:px-24 lg:px-24 px-6">
                 <div class="row">
 
                     <!-- column 1 starts -->
@@ -37,14 +37,14 @@
         <!--===== section 1 ends =====-->
 
         <!--== section 2 starts ==-->
-        <section class="dtr-pt-100 dtr-pb-70">
-            <div class="container">
+        <section class="dtr-py-80 dtr-sm-py-20">
+            <div class="container xl:px-24 lg:px-24 px-6">
 
                 <!--== row 1 starts ==-->
                 <div class="row">
 
                     <!-- column 1 starts -->
-                    <div class="col-12 col-md-4 dtr-feature dtr-feature-top dtr-feature-square">
+                    <div class="text-sm-center col-12 col-md-4 dtr-feature dtr-feature-top dtr-feature-square">
                         <div class="dtr-feature-img bg-medium-blue color-dark-blue"><i class="icon-city"></i></div>
                         <h5>Leasing Advisory</h5>
                         <p>There are many variations of passages of lorem ipsum available. </p>
@@ -52,7 +52,7 @@
                     <!-- column 1 ends -->
 
                     <!-- column 3 starts -->
-                    <div class="col-12 col-md-4 dtr-feature dtr-feature-top dtr-feature-square">
+                    <div class="text-sm-center col-12 col-md-4 dtr-feature dtr-feature-top dtr-feature-square">
                         <div class="dtr-feature-img bg-medium-red color-dark-brown"><i class="icon-user-tag"></i></div>
                         <h5>Strategy & Consulting</h5>
                         <p>There are many variations of passages of lorem ipsum available.</p>
@@ -60,7 +60,7 @@
                     <!-- column 3 ends -->
 
                     <!-- column 3 starts -->
-                    <div class="col-12 col-md-4 dtr-feature dtr-feature-top dtr-feature-square">
+                    <div class="text-sm-center col-12 col-md-4 dtr-feature dtr-feature-top dtr-feature-square">
                         <div class="dtr-feature-img bg-light-red color-dark-brown"><i class="icon-wind"></i></div>
                         <h5>Facilities Management</h5>
                         <p>There are many variations of passages of lorem ipsum available.</p>
@@ -105,49 +105,25 @@
         <!--== section 2 ends ==-->
 
         <!--== section 3 starts ==-->
-        <section class="dtr-section dtr-box-layout dtr-py-50 bg-white text-center">
-            <div class="container">
+        <section class="dtr-section dtr-py-50 dtr-section dtr-bg-shapes-type-2 text-center">
+            <div class="container px-2 pb-12">
                 <p class="text-size-sm dtr-mb-10"><i class="icon-map-pin1 dtr-mr-10"></i>30 Beverly Hills, Los Angeles</p>
                 <h2 class="dtr-mb-10">Best Delux Home</h2>
                 <p class="tagline-style1 color-green text-shadow-green">$110,000,000</p>
 
-                <!-- box wrapper starts -->
-                <div class="dtr-mt-30">
 
-                    <!-- box 1 -->
-                    <div class="dtr-box-sm dtr-mr-5 bg-medium-blue"> <i class="icon-bed"></i><br>
-                        8 <br>
-                        Bedrooms</div>
-
-                    <!-- box 2 -->
-                    <div class="dtr-box-sm dtr-mr-5 bg-medium-blue"> <i class="icon-bath"></i><br>
-                        9 <br>
-                        Bathrooms</div>
-
-                    <!-- box 3 -->
-                    <div class="dtr-box-sm bg-medium-blue"> <i class="icon-ruler-combined"></i><br>
-                        9542 <br>
-                        Squate Feet</div>
-                </div>
                 <!-- box wrapper ends -->
+                <div class="container xl:px-24 lg:px-24 px-6 text-center">
 
+                    <!-- button 1 -->
+                    <a href="#" class="dtr-btn dtr-btn-right-icon dtr-mt-30 dtr-mr-5 btn-dark-blue">View Other Properties<span class="btn-span bg-blue color-white"><i class="icon-arrow-right"></i></span></a>
+                    <!-- button 2 -->
+                    <a href="index.html#contact" class="dtr-btn dtr-btn-right-icon dtr-mt-30 btn-blue">Get In Touch<span class="btn-span bg-white color-blue"><i class="icon-arrow-right"></i></span></a>
+                    <!-- buttons end -->
+
+                </div>
             </div>
         </section>
-        <!--== section 3 ends ==-->
 
-        <!--== section 4 starts ==-->
-        <section class="bg-white dtr-py-100 dtr-mt-100">
-            <div class="container text-center">
-                <h4>Connect With Us</h4>
-
-                <!-- button 1 -->
-                <a href="#" class="dtr-btn dtr-btn-right-icon dtr-mt-30 dtr-mr-5 btn-dark-blue">View Other Properties<span class="btn-span bg-blue color-white"><i class="icon-arrow-right"></i></span></a>
-                <!-- button 2 -->
-                <a href="index.html#contact" class="dtr-btn dtr-btn-right-icon dtr-mt-30 btn-blue">Get In Touch<span class="btn-span bg-white color-blue"><i class="icon-arrow-right"></i></span></a>
-                <!-- buttons end -->
-
-            </div>
-        </section>
-        <!--== section 4 ends ==-->
 </div>
 </x-guest-layout>

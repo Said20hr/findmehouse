@@ -1,10 +1,10 @@
 <!-- Small Devices Header
 ============================================= -->
-<div class="dtr-responsive-header fixed-top px-12">
+<div class="dtr-responsive-header fixed-top xl:px-12 lg:px-12 px-6">
     <div class="container">
 
         <!-- small devices logo -->
-        <a href="index.html"><img src="assets/images/logo.png" class="w-20" alt="logo"></a>
+        <a href="{{route('home')}}"><img src="assets/images/logo.png" class="w-20" alt="logo"></a>
         <!-- small devices logo ends -->
 
         <!-- menu button -->
@@ -18,16 +18,16 @@
 <!-- header starts
 ============================================= -->
 <header id="dtr-header-global" class="fixed-top ">
-    <div class="d-flex align-items-center justify-content-between px-12">
+    <div class="d-flex align-items-center justify-content-between xl:px-20 lg:px-20 px-6">
 
         <!-- header left starts -->
         <div class="dtr-header-left">
 
             <!-- logo -->
-            <a class="logo-default dtr-scroll-link" href="#home"><img src="assets/images/logo.png" class="w-28" alt="logo"></a>
+            <a class="logo-default dtr-scroll-link" href="{{route('home')}}"><img src="assets/images/logo.png" class="w-28" alt="logo"></a>
 
             <!-- logo on scroll -->
-            <a class="logo-alt dtr-scroll-link" href="#home"><img src="assets/images/logo.png" class="w-28" alt="logo"></a>
+            <a class="logo-alt dtr-scroll-link" href="{{route('home')}}"><img src="assets/images/logo.png" class="w-28" alt="logo"></a>
             <!-- logo on scroll ends -->
 
         </div>
@@ -45,9 +45,9 @@
             <!-- menu starts-->
             <div class="main-navigation dtr-menu-light">
                 <ul class="sf-menu dtr-scrollspy dtr-nav dark-nav-on-load dark-nav-on-scroll">
-                    <li> <a class="nav-link active" href="{{route('home')}}">Home.</a> </li>
-                    <li> <a class="nav-link" href="{{route('services')}}">Services.</a> </li>
-                    <li> <a class="nav-link" href="{{route('contact')}}">Contact.</a> </li>
+                    <li> <a class="nav-link {{request()->is('/') ? 'active' : '' }}" href="{{route('home')}}">Home.</a> </li>
+                    <li> <a class="nav-link {{request()->is('services') ? 'active' : '' }}" href="{{route('services')}}">Services.</a> </li>
+                    <li> <a class="nav-link {{request()->is('contact') ? 'active' : '' }}" href="{{route('contact')}}">Contact.</a> </li>
                 </ul>
             </div>
             <!-- menu ends -->

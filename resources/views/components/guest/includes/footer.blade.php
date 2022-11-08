@@ -1,7 +1,7 @@
 <footer id="dtr-footer">
 
     <!--== footer main starts ==-->
-    <div class="dtr-footer-main px-8 shadow-sm">
+    <div class="dtr-footer-main xl:px-12 lg:px-12 px-6 shadow-sm">
 
         <!--== row starts ==-->
         <div class="flex xl:justify-content-between justify-content-start">

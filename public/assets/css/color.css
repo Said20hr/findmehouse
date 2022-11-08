@@ -144,6 +144,7 @@ font-size: 95%;
 /*----- Menu -----*/
 /*----------------------------------------*/
 /* menu for dark background */
+.nav-link.active { color: #111950 !important; font-weight: bold }
 .dtr-menu-light .nav-link { color: rgba(255, 255, 255, .5); }
 .dtr-menu-light .active { color: #111950; }
 .dtr-menu-light .nav-link:hover { color: #111950; }

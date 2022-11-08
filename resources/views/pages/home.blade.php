@@ -5,7 +5,7 @@
 ================================================== -->
         <section id="home" class="dtr-section dtr-box-layout dtr-hero-section-top-padding">
             <!-- dtr-bg-shapes-type-1 : Class for shapes to background. Easy to change image color, refer local help doc -->
-            <div class="dtr-box-wrapper-flat  bg-white">
+            <div class="dtr-box-wrapper-flat xl:px-20 lg:px-20 px-6 pt-12">
 
                 <!--===== row 1 starts =====-->
                 <div class="row">
@@ -15,7 +15,7 @@
                     <!-- column 1 ends -->
 
                     <!-- column 2 starts -->
-                    <div class="col-12 col-md-6 py-12 px-10 bg-opacity-60 rounded-xl">
+                    <div class="col-12 col-md-6 py-6 xl:py-12 xl:px-10 lg:px-10 bg-opacity-60 rounded-xl">
                         <!-- intro text -->
                         <div class="dtr-section-heading-wrapper">
                             <h2 class="">We'll find you a home</h2>
@@ -27,11 +27,14 @@
                             Often clients had only contact by phone or email and never actually met their personal relocator, subsequently being passed through several people down the relocation chain on their journey.
                             We decided to bring that personal touch back to the market.
                         </p>
-                        <!-- button 1 -->
-                        <a href="#" class="dtr-btn dtr-btn-right-icon dtr-mt-30 dtr-mr-5 btn-dark-blue">Get me Home <span class="btn-span bg-white color-dark-blue"><i class="icon-arrow-right"></i></span></a>
-                        <!-- button 2 -->
-                        <a href="#" class="dtr-btn dtr-btn-right-icon dtr-mt-30 btn-blue">Get In Touch<span class="btn-span bg-white color-blue"><i class="icon-arrow-right"></i></span></a>
-                        <!-- buttons end -->
+                        <div class="flex">
+                            <!-- button 1 -->
+                            <a href="#" class="dtr-btn text-sm xl:text-base lg:text-base dtr-btn-right-icon dtr-mt-30 dtr-mr-5 btn-dark-blue">Get me Home <span class="btn-span bg-white color-dark-blue"><i class="icon-arrow-right"></i></span></a>
+                            <!-- button 2 -->
+                            <a href="#" class="dtr-btn text-sm xl:text-base lg:text-base dtr-btn-right-icon dtr-mt-30 btn-blue">Get In Touch<span class="btn-span bg-white color-blue"><i class="icon-arrow-right"></i></span></a>
+                            <!-- buttons end -->
+                        </div>
+
 
                         <div class="spacer-50"></div>
                         <div class="mx-auto">
@@ -51,11 +54,11 @@
 
         <!-- features section starts
 ================================================== -->
-        <section id="features" class="dtr-section dtr-box-layout dtr-py-100 xl:px-12 lg:px-12">
+        <section id="features" class="dtr-section dtr-box-layout dtr-py-100 dtr-sm-py-20 xl:px-20 lg:px-20 px-6">
 
             <!-- heading starts -->
             <div class="dtr-section-heading-wrapper">
-                <h2>We handle everything</h2>
+                <h3>We handle everything</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor<br>
                    incididunt soluta nobis assumenda labore quod maxime.</p>
             </div>
@@ -66,7 +69,7 @@
 
                 <!-- column 1 starts -->
                 <div class="col-12 col-md-3 dtr-feature dtr-feature-top">
-                    <div class="dtr-feature-img mb-4"><img src="assets/icons/line-icons-2022-02-08-22-34-13-utc/500 Line Icons/Product/Line Icons - Color/SVG/1 to 100/compass.svg" class="w-24" alt="image"></div>
+                    <div class="dtr-feature-img mb-4"><img src="assets/images/home.png" class="w-24" alt="image"></div>
                     <h4 class="my-2">Home Appraisal</h4>
                     <p>Professional relocation company based in Haarlem, The Netherlands. The owner of the company is an expat herself and moved here 10 years ago..</p>
                 </div>
@@ -74,7 +77,7 @@
 
                 <!-- column 2 starts -->
                 <div class="col-12 col-md-3 dtr-feature dtr-feature-top">
-                    <div class="dtr-feature-img mb-4"><img src="assets/icons/line-icons-2022-02-08-22-34-13-utc/500 Line Icons/Product/Line Icons - Color/SVG/1 to 100/clock.svg" class="w-24" alt="image"></div>
+                    <div class="dtr-feature-img mb-4"><img src="assets/images/money.png" class="w-24" alt="image"></div>
                     <h4 class="my-2">Price Negotiation</h4>
                     <p>We don't deal in problems, we deal in solutions. Moving is in the top ten list of stressful life events. We know things don't always go smoothly, therefore we work to quickly solve them..</p>
                 </div>
@@ -82,14 +85,14 @@
 
                 <!-- column 3 starts -->
                 <div class="col-12 col-md-3 dtr-feature dtr-feature-top">
-                    <div class="dtr-feature-img mb-4"><img src="assets/icons/line-icons-2022-02-08-22-34-13-utc/500 Line Icons/Product/Line Icons - Color/SVG/1 to 100/wallet.svg" class="w-24" alt="image"></div>
+                    <div class="dtr-feature-img mb-4"><img src="assets/images/book-2.png" class="w-24" alt="image"></div>
                     <h4 class="my-2">Paperwork Handling</h4>
                     <p>OOne to one communication. Fast action and feedback. Competitive prices - no hidden costs.</p>
                 </div>
                 <!-- column 3 ends -->
                 <!-- column 4 starts -->
                 <div class="col-12 col-md-3 dtr-feature dtr-feature-top">
-                    <div class="dtr-feature-img mb-4"><img src="assets/icons/line-icons-2022-02-08-22-34-13-utc/500 Line Icons/Product/Line Icons - Color/SVG/1 to 100/light_bulb.svg" class="w-24" alt="image"></div>
+                    <div class="dtr-feature-img mb-4"><img src="assets/images/shop.png" class="w-24" alt="image"></div>
                     <h4 class="my-2">Home Appraisal</h4>
                     <p>Professional relocation company based in Haarlem, The Netherlands. The owner of the company is an expat herself and moved here 10 years ago..</p>
                 </div>
@@ -104,7 +107,7 @@
 
         <!-- cta section starts
 ================================================== -->
-        <section id="cta" class="dtr-section dtr-box-layout">
+        <section id="cta" class="dtr-section dtr-box-layout xl:px-20 lg:px-20 px-6">
             <!-- dtr-bg-shapes-type-2 : Class for shapes to background. Easy to change image color, refer local help doc -->
             <div class="dtr-box-wrapper-round dtr-bg-shapes-type-2 dtr-box-padding bg-white">
 
@@ -151,17 +154,17 @@
 
         <!-- about section starts
 ================================================== -->
-        <section id="about" class="dtr-section dtr-box-layout">
+        <section id="about" class="dtr-section dtr-box-layout xl:px-20 lg:px-20 px-6">
 
             <!--===== row 1 starts =====-->
             <div class="row dtr-mr-0">
 
                 <!-- column 1 starts -->
-                <div class="col-12 col-md-6 dtr-py-100 dtr-pr-100">
+                <div class="col-12 col-md-6 dtr-py-100 dtr-sm-py-40 dtr-pr-100">
 
                     <!-- heading starts -->
                     <div class="dtr-section-heading-wrapper dtr-mb-20">
-                        <h2>We Connect People With Their Dreams</h2>
+                        <h3>We Connect People With Their Dreams</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt soluta nobis assumenda labore quod maxime.</p>
                     </div>
                     <!-- heading ends -->
@@ -170,10 +173,7 @@
                     <p>There are many variations of passages of lorem ipsum available. Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime but the majority have suffered alteration in some form by injected humour or randomised words which don't look even slightly believable. </p>
 
                     <!-- photo chain starts -->
-                    <div class="d-flex align-items-center dtr-mt-30">
-                        <div class="dtr-photo-chain"><span><img src="assets/images/user-1.jpg" alt="image"></span><span><img src="assets/images/user-2.jpg" alt="image"></span><span><img src="assets/images/user-3.jpg" alt="image"></span><span><img src="assets/images/user-4.jpg" alt="image"></span><span class="bg-blue color-white">1M+</span></div>
-                        <p class="text-size-sm dtr-ml-10">Reviews 4.7 out of 5</p>
-                    </div>
+
                     <!-- photo chain ends -->
 
                     <!-- nested row starts -->
@@ -193,7 +193,7 @@
                 <!-- column 1 ends -->
 
                 <!-- column 2 starts -->
-                <div class="col-12 col-md-6 dtr-box-full-img dtr-mt-minus50 dtr-rounded-left-bottom" style="background-image: url({{asset('assets/images/haarlem.webp')}});"> </div>
+                <div class="col-12 col-md-6 dtr-box-full-img rounded-lg px-12 dtr-rounded-left-bottom" style="background-image: url({{asset('assets/images/haarlem.webp')}});"> </div>
                 <!-- column 2 ends -->
 
             </div>
@@ -206,9 +206,8 @@
         <!-- properties section starts
 ================================================== -->
         <!-- dtr-bg-shapes-type-3 : Class for shapes to background. Easy to change image color, refer local help doc -->
-        <section id="properties" class="dtr-section dtr-bg-shapes-type-3 dtr-py-100">
-            <div class="dtr-box-layout">
-
+        <section id="properties" class="dtr-section dtr-bg-shapes-type-3 dtr-py-100 mt-4">
+            <div class="dtr-box-layout xl:px-20 lg:px-20 px-6">
                 <!-- heading starts -->
                 <div class="dtr-section-heading-wrapper">
                     <h2>Our Featured Porperties</h2>
@@ -436,7 +435,7 @@
         <section id="reviews" class="dtr-section dtr-box-layout">
 
             <!--===== row 1 starts =====-->
-            <div class="row dtr-mr-0">
+            <div class="row dtr-mr-0 xl:px-20 lg:px-20 px-6">
 
                 <!-- column 1 starts -->
                 <div class="col-12 col-md-5 dtr-py-100">
@@ -497,7 +496,7 @@
                 <!-- column 1 ends -->
 
                 <!-- column 2 starts -->
-                <div class="col-12 col-md-6 offset-md-1 dtr-box-full-img dtr-mt-minus50 dtr-rounded-left-bottom" style="background-image: url({{asset("assets/images/testi.jpg")}});"> </div>
+                <div class="col-12 col-md-6 offset-md-1 dtr-box-full-img dtr-mt-minus50 dtr-rounded-left-bottom shadow-lg" style="background-image: url({{asset("assets/images/Amsterdam.jpg")}});"> </div>
                 <!-- column 2 ends -->
 
             </div>
@@ -512,7 +511,7 @@
         <!-- contact section starts
 ================================================== -->
         <!-- dtr-bg-shapes-type-4/5 : Classes for shapes to background. Easy to change image color, refer local help doc -->
-        <section id="contact" class="dtr-section dtr-box-layout dtr-box-wrapper-round dtr-bg-shapes-type-5 dtr-box-padding bg-white">
+        <section id="contact" class="dtr-section dtr-box-layout dtr-box-wrapper-round dtr-bg-shapes-type-5 dtr-box-padding bg-white mt-8">
 
             <!--== row starts ==-->
             <div class="row dtr-bg-shapes-type-4">

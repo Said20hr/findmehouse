@@ -1,87 +1,87 @@
-<div class="dtr-page-with-sidebar dtr-has-right-sidebar">
+<div class="dtr-page-with-sidebar dtr-has-right-sidebar w-full">
     <section class="bg-white dark:bg-gray-900 mx-auto">
         <div class="flex justify-content-center item-center pt-12 pb-6">
             @if($step == 1)
-            <div class="flex justify-center items-center text-lg transition duration-300" wire:click="changeStep('1')">
+            <div class="flex justify-center items-center xl:text-lg lg:text-lg text-sm transition duration-300" wire:click="changeStep('1')">
                 <div class="border rounded-xl bg-indigo-600 text-white px-3 py-2 shadow-sm cursor-pointer">
                     1
                 </div>
-                <span class="ml-2 text-indigo-600 text-base">City and persons</span>
-                <span class="w-20 border-t-2 border-indigo-600 border-dashed mx-2"></span>
+                <span class="ml-2 text-indigo-600 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">City and persons</span>
+                <span class="xl:w-20 lg:w-20 w-24 border-t-2 border-indigo-600 border-dashed mx-2"></span>
             </div>
             @else
-                <div class="flex justify-center items-center text-lg transition duration-300" wire:click="changeStep('1')">
+                <div class="flex justify-center items-center xl:text-lg lg:text-lg text-sm transition duration-300" wire:click="changeStep('1')">
                     <div class="border rounded-xl bg-green-600 text-white px-3 py-2 shadow-sm cursor-pointer">
                         ✔
                     </div>
-                    <span class="ml-2 text-green-600 text-base">City and persons</span>
-                    <span class="w-20 border-t-4 border-green-500 mx-2"></span>
+                    <span class="ml-2 text-green-600 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">City and persons</span>
+                    <span class="xl:w-20 lg:w-20 w-24 border-t-4 border-green-500 mx-2"></span>
                 </div>
             @endif
                 @if($step == 1)
-                    <div class="flex justify-center items-center text-base transition duration-300" wire:click="changeStep('2')">
+                    <div class="flex justify-center items-center xl:text-base lg:text-base text-xs transition duration-300" wire:click="changeStep('2')">
                         <div class="border rounded-xl bg-gray-400 text-white px-3 py-2 shadow-sm cursor-pointer">
                             2
                         </div>
-                        <span class="ml-2 text-gray-400 text-base">Personal Information</span>
-                        <span class="w-20 border-t border-gray-400 border-dashed mx-2"></span>
+                        <span class="ml-2 text-gray-400 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">Personal Information</span>
+                        <span class="xl:w-20 lg:w-20 w-24 border-t border-gray-400 border-dashed mx-2"></span>
                     </div>
                 @elseif($step == 2)
-                    <div class="flex justify-center items-center text-lg transition duration-300" wire:click="changeStep('2')">
+                    <div class="flex justify-center items-center xl:text-lg lg:text-lg text-sm transition duration-300" wire:click="changeStep('2')">
                         <div class="border rounded-xl bg-indigo-600 text-white px-3 py-2 shadow-sm cursor-pointer">
                             2
                         </div>
-                        <span class="ml-2 text-indigo-600 text-base">Personal Information</span>
-                        <span class="w-20 border-t-2 border-indigo-600 border-dashed mx-2"></span>
+                        <span class="ml-2 text-indigo-600 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">Personal Information</span>
+                        <span class="xl:w-20 lg:w-20 w-24 border-t-2 border-indigo-600 border-dashed mx-2"></span>
                     </div>
                 @else
-                    <div class="flex justify-center items-center text-base transition duration-300" wire:click="changeStep('2')">
+                    <div class="flex justify-center items-center xl:text-base lg:text-base text-xs transition duration-300" wire:click="changeStep('2')">
                         <div class="border rounded-xl bg-green-600 text-white px-3 py-2 shadow-sm cursor-pointer">
                             ✔
                         </div>
-                        <span class="ml-2 text-green-600 text-base">Personal Information</span>
-                        <span class="w-20 border-t-4 border-green-500 mx-2"></span>
+                        <span class="ml-2 text-green-600 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">Personal Information</span>
+                        <span class="xl:w-20 lg:w-20 w-24 border-t-4 border-green-500 mx-2"></span>
                     </div>
                 @endif
 
                 @if($step == 3)
-                    <div class="flex justify-center items-center text-base transition duration-300" wire:click="changeStep('3')">
+                    <div class="flex justify-center items-center xl:text-base lg:text-base text-xs hidden xl:flex lg:flex transition duration-300" wire:click="changeStep('3')">
                         <div class="border rounded-xl bg-indigo-600 text-white px-3 py-2 shadow-sm cursor-pointer">
                             ✔
                         </div>
-                        <span class="mx-2 text-indigo-400 text-base">Confirmations</span>
+                        <span class="mx-2 text-indigo-400 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">Confirmations</span>
                     </div>
                 @elseif($step == 4)
-                    <div class="flex justify-center items-center text-base transition duration-300" wire:click="changeStep('3')">
+                    <div class="flex justify-center items-center xl:text-base lg:text-base text-xs transition duration-300" wire:click="changeStep('3')">
                         <div class="border rounded-xl bg-green-600 text-white px-3 py-2 shadow-sm cursor-pointer">
                             ✔
                         </div>
-                        <span class="mx-2 text-green-600 text-base">Confirmations</span>
+                        <span class="mx-2 text-green-600 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">Confirmations</span>
                     </div>
                 @else
-                    <div class="flex justify-center items-center text-base transition duration-300" wire:click="changeStep('3')">
+                    <div class="flex justify-center items-center xl:text-base lg:text-base text-xs transition duration-300" wire:click="changeStep('3')">
                         <div class="border rounded-xl bg-white text-gray-600 px-3 py-2 shadow-sm cursor-pointer">
                             3
                         </div>
-                        <span class="mx-2 text-gray-400 text-base">Confirmations</span>
+                        <span class="mx-2 text-gray-400 xl:text-base lg:text-base text-xs hidden xl:flex lg:flex">Confirmations</span>
                     </div>
                 @endif
 
 
         </div>
         @if($step ==1)
-            <div class="pb-10 px-4 mx-auto max-w-6xl mx-auto lg:px-6">
+            <div class="pb-10 xl:px-4 lg:px-4 mx-auto xl:max-w-6xl lg:max-w-6xl mx-auto lg:px-6">
                 <form wire:submit.prevent="StepOne" class="flex flex-wrap pt-8 mt-8 text-left border-t border-gray-200 dark:border-gray-700 max-w-4xl mx-auto">
                     <div class="mb-8 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Preferred area <span class="text-danger mx-2">*</span>
                         </h3>
-                        <div class="items-center w-full text-sm font-medium text-gray-900 bg-white sm:flex" x-data="{city: $wire.city}">
+                        <div class="items-center w-full text-sm font-medium text-gray-900 bg-white flex" x-data="{city: $wire.city}">
                             <label @click="city = 'Amsterdam'" class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 w-1/3 cursor-pointer" for="Amsterdam">
                                 <input id="Amsterdam" type="radio"  wire:model="city" value="Amsterdam" class="hidden" checked="">
                                 <div class="flex items-center py-3 bg-gray-100 rounded-lg border flex-col"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': city === 'Amsterdam' }">
-                                    <img src="{{asset('assets/images/Amsterdam.jpg')}}" alt="" class="w-48 h-36 object-cover rounded-lg" >
+                                    <img src="{{asset('assets/images/Amsterdam.jpg')}}" alt="" class="xl:w-48 xl:h-36 lg:w-48 lg:h-36 w-24 h-24 object-cover rounded-lg" >
                                     <span class="pt-3 text-center w-full text-sm font-medium text-gray-900 dark:text-gray-300"
                                     :class="{ 'font-bold text-white shadow-lg': city === 'Amsterdam' }">Amsterdam</span>
                                 </div>
@@ -90,7 +90,7 @@
                                 <input id="Haarlem" type="radio"  wire:model="city" value="Haarlem" class="hidden">
                                 <div  class="flex items-center py-3 bg-gray-100 rounded-lg border flex-col"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': city === 'Haarlem' }">
-                                    <img src="{{asset('assets/images/Haarlem.jpg')}}" alt="Haarlem" class="w-48 h-36 object-cover rounded-lg">
+                                    <img src="{{asset('assets/images/Haarlem.jpg')}}" alt="Haarlem" class="xl:w-48 xl:h-36 lg:w-48 lg:h-36 w-24 h-24 object-cover rounded-lg">
                                     <span  class="pt-3 text-center w-full text-sm font-medium text-gray-900 dark:text-gray-300"
                                     :class="{ 'font-bold text-white shadow-lg': city === 'Haarlem' }">Haarlem</span>
                                 </div>
@@ -99,50 +99,49 @@
                                 <input id="Netherlands" type="radio"  wire:model="city" value="Netherlands" class="hidden">
                                 <div class="flex items-center py-3 bg-gray-100 rounded-lg border flex-col"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': city === 'Netherlands' }">
-                                    <img src="{{asset('assets/images/Netherlands.jpg')}}" alt="Netherlands" class="w-48 h-36 object-cover rounded-lg">
+                                    <img src="{{asset('assets/images/Netherlands.jpg')}}" alt="Netherlands" class="xl:w-48 xl:h-36 lg:w-48 lg:h-36 w-24 h-24 object-cover rounded-lg">
                                     <span  class="pt-3 text-center w-full text-sm font-medium text-gray-900 dark:text-gray-300"
-                                    :class="{ 'font-bold text-white shadow-lg': city === 'Netherlands' }">Other in the Netherlands</span>
+                                    :class="{ 'font-bold text-white shadow-lg': city === 'Netherlands' }">Netherlands</span>
                                 </div>
                             </label>
-
                         </div>
                         <x-jet-input-error for="city" class="mt-2" />
                     </div>
                     <div class="mb-8 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="px-2 flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Number <span class="text-danger mx-2">*</span>
                         </h3>
-                        <div class="flex items-center">
+                        <div class="flex items-center px-2">
                             <div class="w-1/5 text-center h-full input text-xl bg-gray-200 hover:bg-indigo-800 transition duration-400 cursor-pointer hover:text-white" wire:click="decrease">-</div>
-                            <input  type="text" value="{{$number}}" class="required text-lg text-center rounded-0 " wire:model="number"  readonly >
+                            <input  type="text" value="{{$number}}" class="required xl:text-lg lg:text-lg text-sm text-center rounded-0 " wire:model="number"  readonly >
                             <div class="w-1/5 text-center h-full input text-xl bg-gray-200 hover:bg-indigo-800 transition duration-400 cursor-pointer hover:text-white" wire:click="increase">+</div>
                         </div>
                         <x-jet-input-error for="number" class="mt-2" />
 
                     </div>
                     <div class="mb-8 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="px-2 flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Family composition <span class="text-danger mx-2">*</span>
                         </h3>
                         <div class="flex flex-wrap" x-data="{composition: $wire.composition}">
-                            <label for="single" @click="composition = 'single'" class="px-1 w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
-                                <div class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer"
+                            <label for="single" @click="composition = 'single'" class="px-1 lg:w-1/6 w-fit xl:w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
+                                <div class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer px-2"
                                      :class="{ 'border-2 bg-dark border-dark font-bold text-white shadow-lg': composition === 'single' }">
                                     <input id="single" type="radio" value="single" wire:model="composition" class="hidden" checked="">
                                     <span  class="w-full text-sm font-medium" :class="{ 'font-bold text-white shadow-lg': composition === 'single' }">Single</span>
                                 </div>
                             </label>
-                            <div class="px-1 w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
+                            <div class="px-1 lg:w-1/6 w-fit xl:w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
                                 <label for="composition" @click="composition = 'couple'"
-                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer"
+                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer px-2"
                                      :class="{ 'border-2 bg-dark border-dark font-bold text-white shadow-lg': composition === 'couple' }">
                                     <input id="composition" type="radio" value="couple" wire:model="composition" class="hidden">
                                     <span  class="w-full text-sm font-medium" :class="{ 'font-bold text-white shadow-lg': composition === 'couple' }">Couple</span>
                                 </label>
                             </div>
-                            <div class="px-1 w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
+                            <div class="px-1 lg:w-1/6 w-fit xl:w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
                                 <label for="family" @click="composition = 'family'"
-                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer"
+                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer px-2"
                                      :class="{ 'border-2 bg-dark border-dark font-bold text-white shadow-lg': composition === 'family' }">
                                     <input id="family" type="radio" value="family" wire:model="composition" class="hidden">
                                     <span  class="w-full text-sm font-medium"
@@ -151,9 +150,9 @@
                                     </span>
                                 </label>
                             </div>
-                            <div class="px-1 w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
+                            <div class="px-1 lg:w-1/6 w-fit xl:w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
                                 <label for="colleagues" @click="composition = 'colleagues'"
-                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer"
+                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer px-2"
                                      :class="{ 'border-2 bg-dark border-dark font-bold text-white shadow-lg': composition === 'colleagues' }">
                                     <input id="colleagues" type="radio" value="colleagues" wire:model="composition" class="hidden">
                                     <span  class="w-full text-sm font-medium"
@@ -162,9 +161,9 @@
                                     </span>
                                 </label>
                             </div>
-                            <div class="px-1 w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
+                            <div class="px-1 lg:w-1/6 w-fit xl:w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700 cursor-pointer ">
                                 <label for="friends" @click="composition = 'friends'"
-                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer"
+                                     class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer px-2"
                                      :class="{ 'border-2 bg-dark border-dark font-bold text-white shadow-lg': composition === 'friends' }">
                                     <input id="friends" type="radio" value="friends" wire:model="composition" class="hidden">
                                     <span  class="w-full text-sm font-medium"
@@ -173,9 +172,9 @@
                                     </span>
                                 </label>
                             </div>
-                            <div class="px-1 w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700  cursor-pointer ">
+                            <div class="px-1 lg:w-1/6 w-fit xl:w-1/6 flex text-center items-center justify-center text-indigo-900 hover:text-indigo-700  cursor-pointer ">
                                 <label @click="composition = 'other'" for="other"
-                                       class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer"
+                                       class="w-full rounded-xl bg-gray-50 hover:bg-gray-100 py-2 border border-gray-200 hover:border-gray-900 cursor-pointer px-2"
                                        :class="{ 'border-2 bg-dark border-dark font-bold text-white shadow-lg': composition === 'other' }">
                                     <input id="other" type="radio" value="other" wire:model="composition" class="hidden">
                                     <span  class="w-full text-sm font-medium"
@@ -187,12 +186,12 @@
                         </div>
                         <x-jet-input-error for="composition" class="mt-2" />
                     </div>
-                    <div class="mb-8 w-full"  >
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                    <div class="px-2 mb-8 w-full"  >
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Pets <span class="text-danger mx-2">*</span>
                         </h3>
-                        <div class="items-center w-full text-sm font-medium text-gray-900 bg-white sm:flex" x-data="{pet: $wire.pet }">
-                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 w-1/4 ">
+                        <div class="items-center w-full text-sm font-medium text-gray-900 bg-white flex flex-wrap" x-data="{pet: $wire.pet }">
+                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 lg:w-1/4 xl:w-1/4 ">
                                 <label for="no-pets" @click="pet = 'no-pets'" class="flex items-center py-3  rounded-lg border flex-col cursor-pointer"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': pet === 'no-pets' }">
                                     <img src="{{asset('assets/images/no-pets.png')}}" alt="dog" class="w-auto h-24 object-cover rounded-lg">
@@ -201,7 +200,7 @@
                                            :class="{ 'text-white': pet === 'no-pets' }">No pets</span>
                                 </label>
                             </div>
-                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 w-1/4 ">
+                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 lg:w-1/4 xl:w-1/4 ">
                                 <label or="dog" @click="pet = 'dog'" class="flex items-center py-3  rounded-lg border flex-col cursor-pointer"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': pet === 'dog' }">
                                     <img src="{{asset('assets/images/dog.png')}}" alt="dog" class="w-auto h-24 object-cover rounded-lg">
@@ -210,7 +209,7 @@
                                            :class="{ 'text-white': pet === 'dog' }">Dog</span>
                                 </label>
                             </div>
-                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 w-1/4 ">
+                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 lg:w-1/4 xl:w-1/4 ">
                                 <label for="cat" @click="pet = 'cat'" class="flex items-center py-3  rounded-lg border flex-col cursor-pointer"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': pet === 'cat' }">
                                     <img src="{{asset('assets/images/cat.png')}}" alt="cat" class="w-auto h-24 object-cover rounded-lg">
@@ -219,7 +218,7 @@
                                            :class="{ 'text-white': pet === 'cat' }">Cat</span>
                                 </label>
                             </div>
-                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 w-1/4 ">
+                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 lg:w-1/4 xl:w-1/4 ">
                                 <label for="bird" @click="pet = 'bird'" class="flex items-center py-3  rounded-lg border flex-col cursor-pointer"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': pet === 'bird' }">
                                     <img src="{{asset('assets/images/bird.png')}}" alt="bird" class="w-auto h-24 object-cover rounded-lg">
@@ -228,7 +227,7 @@
                                            :class="{ 'text-white': pet === 'bird' }">Bird</span>
                                 </label>
                             </div>
-                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 w-1/4 ">
+                            <div class="w-full border-b border-gray-200 sm:border-b-0 sm:border-r dark:border-gray-600 px-1 lg:w-1/4 xl:w-1/4 ">
                                 <label for="other-pet" @click="pet = 'other'" class="flex items-center py-3  rounded-lg border flex-col cursor-pointer"
                                      :class="{ 'border-2 bg-dark border-info font-bold text-white shadow-lg': pet === 'other' }">
                                     <img src="{{asset('assets/images/pets.png')}}" alt="pets" class="w-32 h-24 object-cover rounded-lg">
@@ -240,15 +239,15 @@
                         </div>
                         <x-jet-input-error for="pets" class="mt-2" />
                     </div>
-                    <div class="mb-8 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                    <div class="mb-8 w-full px-2">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Budget <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="budget"  class="required"  type="text" placeholder="€">
                         <x-jet-input-error for="budget" class="mt-2" />
                     </div>
-                    <div class="mb-8 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                    <div class="mb-8 w-full px-2">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Interior <span class="text-danger mx-2">*</span>
                         </h3>
                         <div class="flex">
@@ -276,42 +275,42 @@
             <div class="pb-10 px-4 mx-auto max-w-6xl mx-auto lg:px-6">
                 <form wire:submit.prevent="StepTwo" class="flex flex-wrap pt-8 mt-8 text-left border-t border-gray-200 dark:border-gray-700 max-w-4xl mx-auto">
                     <div class="mb-6 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Mr/Miss and First/Last Name <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="name"  class="required" type="text" placeholder="Mr/Mrs - First and last name*">
                         <x-jet-input-error for="name" class="mt-2" />
                     </div>
                     <div class="mb-6 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Email <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="email"  class="required email " type="email" placeholder="john@example.com">
                         <x-jet-input-error for="email" class="mt-2" />
                     </div>
                     <div class="mb-6 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Phone <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="phone"  class="required" type="text" placeholder="Phone number*">
                         <x-jet-input-error for="phone" class="mt-2" />
                     </div>
                     <div class="mb-6 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Date of birth <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="birth_date"  class="required" type="date">
                         <x-jet-input-error for="birth_date" class="mt-2" />
                     </div>
                     <div class="mb-6 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Employer <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="employer"  class="required email " type="text" placeholder="Employer *">
                         <x-jet-input-error for="employer" class="mt-2" />
                     </div>
                     <div class="mb-6 w-full">
-                        <h3 class="flex items-center mb-3 text-lg font-medium text-gray-900 dark:text-white">
+                        <h3 class="flex items-center mb-3 xl:text-lg lg:text-lg text-sm font-medium text-gray-900 dark:text-white">
                             Gross income <span class="text-danger mx-2">*</span>
                         </h3>
                         <input wire:model="income"  class="required email " type="text" placeholder="€">
@@ -328,43 +327,43 @@
         @endif
         @if($step == 3)
             <div class="pb-10 mx-auto mx-auto">
-                <div class="border rounded-lg pt-6 pb-3 mt-6 text-left border-gray-200 dark:border-gray-700 max-w-6xl mx-auto">
-                    <div class="flex pl-3 ">
-                        <img src="{{asset('assets/images/'.$city.'.jpg')}}" alt="" class="w-64 h-48 object-cover rounded-lg pb-2" >
-                        <div class="px-4 w-full">
+                <div class="border rounded-lg lg:pt-6 lg:pb-3 p-4 xl:pt-6 xl:pb-3 mt-6 text-left border-gray-200 dark:border-gray-700 max-w-6xl mx-auto">
+                    <div class="xl:flex lg:flex xl:pl-3 lg:pl-3 ">
+                        <img src="{{asset('assets/images/'.$city.'.jpg')}}" alt="" class="xl:w-64 lg:w-64 w-full h-48 object-cover rounded-lg pb-2" >
+                        <div class="xl:px-4 lg:px-4 w-full">
                             <div class="mt-2 w-full text font-medium text-green-600 font-semibold">Confirm your choice</div>
                             <div class="mt-1 w-full text-xl font-medium text-indigo-900 dark:text-gray-300">{{$city}}</div>
                             <div class="flex flex-wrap mt-4">
-                                <div class="w-1/4 text-center pr-1">
+                                <div class="xl:w-1/4 lg:w-1/4 w-1/2 text-center pr-1 pb-2">
                                     <div class="shadow-sm bg-medium-blue rounded-lg p-2 text-sm">
-                                        <i class="icon-user text-lg"></i>
+                                        <i class="icon-user xl:text-lg lg:text-lg text-sm"></i>
                                         <div class="my-1">
                                             <span class="font-semibold"> {{$number}} </span>
                                         </div>
                                         Guests
                                     </div>
                                 </div>
-                                <div class="w-1/4 text-center pr-1">
+                                <div class="xl:w-1/4 lg:w-1/4 w-1/2 text-center pr-1 pb-2">
                                     <div class="shadow-sm bg-medium-blue rounded-lg p-2 text-sm">
-                                        <i class="icon-hospital-user text-lg"></i>
+                                        <i class="icon-hospital-user xl:text-lg lg:text-lg text-sm"></i>
                                         <div class="my-1">
                                             <span class="font-semibold">{{$composition}}</span>
                                         </div>
                                         Composition
                                     </div>
                                 </div>
-                                <div class="w-1/4 text-center pr-1">
+                                <div class="xl:w-1/4 lg:w-1/4 w-1/2 text-center pr-1 pb-2">
                                     <div class="shadow-sm bg-medium-blue rounded-lg p-2 text-sm">
-                                            <i class="icon-dog text-lg"></i>
+                                            <i class="icon-dog xl:text-lg lg:text-lg text-sm"></i>
                                             <div class="my-1">
                                                 <span class="font-semibold">{{$pet}}</span>
                                             </div>
                                             Pets
                                         </div>
                                     </div>
-                                <div class="w-1/4 text-center pr-1">
+                                <div class="xl:w-1/4 lg:w-1/4 w-1/2 text-center pr-1 pb-2">
                                     <div class="shadow-sm bg-medium-blue rounded-lg p-2 text-sm">
-                                        <i class="icon-credit-card text-lg"></i>
+                                        <i class="icon-credit-card xl:text-lg lg:text-lg text-sm"></i>
                                         <div class="my-1">
                                             <span class="font-semibold">{{$budget}}€</span>
                                         </div>
@@ -374,7 +373,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mx-auto px-3 mt-3" x-data="{ expanded: false }">
+                    <div class="mx-auto xl:px-3 lg-px-3 mt-3" x-data="{ expanded: false }">
                         <h2 class="text-indigo-900 font-bold mb-2 text-xl">Good to Know :</h2>
                         <div  class="max-w-3xl">
                         <p class="">
@@ -428,10 +427,10 @@
         @endif
         @if($step == 4)
             <div class="pb-10 mx-auto mx-auto pt-6">
-                <div class="flex justify-center mx-auto w-1/4">
-                    <img src="{{asset('assets/images/ty.png')}}" alt="ty" class="max-w-lg p-2">
+                <div class="flex justify-center mx-auto xl:w-1/4 lg:w-1/4 w-1/2">
+                    <img src="{{asset('assets/images/ty.png')}}" alt="ty" class="lg:max-w-lg w-fit xl:max-w-lg p-2">
                 </div>
-                <div class="text-center py-6 text-green-400 font-semibold text-lg animated" >
+                <div class="text-center py-6 text-green-400 font-semibold xl:text-lg lg:text-lg text-sm animated" >
                     Thanks for submitting! We'll get back to you soon.
                 </div>
 

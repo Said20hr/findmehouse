@@ -2,8 +2,8 @@
     <div id="dtr-main-content" class="dtr-hero-section-top-padding">
 
         <!--===== section 1 starts =====-->
-        <section class="py-4 bg-white">
-            <div class="container">
+        <section class="py-4">
+            <div class="container xl:px-24 lg:px-24 px-6">
                 <div class="row">
 
                     <!-- column 1 starts -->
@@ -43,79 +43,47 @@
         <!--===== section 1 ends =====-->
 
         <!--== section 2 starts ==-->
-        <section class="dtr-pt-100 dtr-pb-70">
-            <div class="container">
-           <div class="col-8 mx-auto">
-               <form id="contactform" method="post" action="php/contact-form.php">
-                   <fieldset>
-
+        <section class="dtr-pt-100 dtr-sm-py-20 dtr-pb-70 bg-white">
+            <div class="container xl:px-24 lg:px-24 px-6 ">
+                <div class="col-lg-8 col-sm-12 mx-auto">
+                    <form id="contactform" method="post" action="">
+                        <fieldset>
                        <!-- form two columns start -->
-                       <div class="dtr-form-row dtr-form-row-2col clearfix">
+                       <div class="dtr-form-row dtr-form-row-2 clearfix">
                            <div class="dtr-form-column">
-                               <p class="dtr-form-field"> <span class="dtr-form-subtext">Your Name</span>
+                               <p class="dtr-form-field"> <div class="dtr-form-subtext pb-2">Your Name</div>
                                    <input name="name"  type="text" placeholder="Johnathon Doelsen">
                                </p>
                            </div>
                            <div class="dtr-form-column">
-                               <p class="dtr-form-field"> <span class="dtr-form-subtext">Email Address</span>
+                               <p class="dtr-form-field"> <div class="dtr-form-subtext pb-2">Email Address</div>
                                    <input name="email"  class="required email" type="text" placeholder="john@example.com">
                                </p>
                            </div>
                        </div>
                        <!-- form two columns ends -->
 
-                       <p class="dtr-form-field"> <span class="dtr-form-subtext">I'm Looking for ...</span>
+                       <p class="dtr-form-field"> <div class="dtr-form-subtext pb-2">I'm Looking for ...</div>
                            <input name="subject"  type="text" placeholder="3 Bedroom villa apartment">
                        </p>
                        <p class="antispam">Leave this empty: <br />
                            <input name="url" />
                        </p>
-                       <p class="dtr-form-field"> <span class="dtr-form-subtext">Your Message</span>
+                       <p class="dtr-form-field"> <div class="dtr-form-subtext pb-2">Your Message</div>
                            <textarea rows="6" name="message" id="message" class="required"  placeholder="Please write in brief..."></textarea>
                        </p>
                        <p class="text-center dtr-mb-0">
-                           <button class="dtr-btn dtr-btn-right-icon btn-outline-dark" type="submit">Send Message <span class="btn-span bg-blue color-white"><i class="icon-send"></i></span></button>
+                           <button class="dtr-btn dtr-btn-right-icon w-full text-white bg-dark-blue" type="submit">Send Message <span class="btn-span bg-blue color-white"><i class="icon-send"></i></span></button>
                        </p>
                        <div id="result"></div>
                    </fieldset>
                </form>
-           </div>
-
-
+                </div>
             </div>
         </section>
         <!--== section 2 ends ==-->
 
-        <!--== section 3 starts ==-->
-        <section class="dtr-section dtr-box-layout dtr-py-50 bg-white text-center">
-            <div class="container">
 
-                <!-- box wrapper starts -->
-                <div class="dtr-box-sm dtr-mr-5 bg-medium-blue"> <i class="icon-bed"></i><br>
-                    8 <br>
-                    Apartment
-                </div>
-                <!-- box 2 -->
-                <div class="dtr-box-sm dtr-mr-5 bg-medium-blue"> <i class="icon-bath"></i><br>
-                    9 <br>
-                    Rooms
-                </div>
-                <!-- box 3 -->
-                <div class="dtr-box-sm bg-medium-blue"> <i class="icon-ruler-combined"></i><br>
-                    9542 <br>
-                    Studio
-                </div>
-                <!-- box wrapper ends -->
-
-            </div>
-        </section>
-        <!--== section 3 ends ==-->
-
-        <!--== section 4 starts ==-->
-        <section class="bg-white dtr-py-100 dtr-mt-100">
-
-        </section>
-        <!--== section 4 ends ==-->
 
     </div>
 </x-guest-layout>
