@@ -49,7 +49,18 @@ class ContactPageController extends Controller
 
     public function form()
     {
-        return view('pages.form');
+        $city = "netherlands";
+        return view('pages.form',compact('city'));
+    }
+    public function formAmsterdam()
+    {
+        $city = "Amsterdam";
+        return view('pages.form',compact('city'));
+    }
+    public function formHaarlem()
+    {
+        $city = "Haarlem";
+        return view('pages.form',compact('city'));
     }
     /**
      * Display the specified resource.

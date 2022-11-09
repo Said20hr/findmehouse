@@ -29,13 +29,11 @@
                         </p>
                         <div class="flex">
                             <!-- button 1 -->
-                            <a href="#" class="dtr-btn text-sm xl:text-base lg:text-base dtr-btn-right-icon dtr-mt-30 dtr-mr-5 btn-dark-blue">Get me Home <span class="btn-span bg-white color-dark-blue"><i class="icon-arrow-right"></i></span></a>
+                            <a href="{{route('form')}}" class="dtr-btn text-sm xl:text-base lg:text-base dtr-btn-right-icon dtr-mt-30 dtr-mr-5 btn-dark-blue">Get me Home <span class="btn-span bg-white color-dark-blue"><i class="icon-arrow-right"></i></span></a>
                             <!-- button 2 -->
-                            <a href="#" class="dtr-btn text-sm xl:text-base lg:text-base dtr-btn-right-icon dtr-mt-30 btn-blue">Get In Touch<span class="btn-span bg-white color-blue"><i class="icon-arrow-right"></i></span></a>
+                            <a href="{{route('contact')}}" class="dtr-btn text-sm xl:text-base lg:text-base dtr-btn-right-icon dtr-mt-30 btn-blue">Get In Touch<span class="btn-span bg-white color-blue"><i class="icon-arrow-right"></i></span></a>
                             <!-- buttons end -->
                         </div>
-
-
                         <div class="spacer-50"></div>
                         <div class="mx-auto">
                             <p class="tagline-style2 dtr-mb-0 color-dark">Price starts at</p>

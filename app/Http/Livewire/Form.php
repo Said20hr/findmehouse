@@ -27,10 +27,10 @@ class Form extends Component
     protected $listeners = ['step-2' => '$refresh'];
 
 
-    public function mount()
+    public function mount($city)
     {
       $this->step  = 1;
-      $this->city ="Amsterdam";
+      $this->city = $city;
       $this->number =1;
       $this->composition ="single";
       $this->pet = "no-pets";
